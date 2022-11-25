@@ -20,9 +20,9 @@ const state = {
         <div class='card-body'>
           ${
             url
-              ? `<img width='100%' height='150px'  src=${url} alt='card image cap' class='card-image-top md-3 rounded-lg' />`
+              ? `<img width='100%' height='150px' style="object-fit: cover; object-positon: centre" src=${url} alt='card image cap' class='card-image-top md-3 rounded-lg' />`
               : `
-        <img width='100%' height='150px' src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt='card image cap' class='img-fluid place__holder__image mb-3' />
+        <img width='100%' height='150px' style="object-fit: cover; object-positon: centre" src="https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png" alt='card image cap' class='img-fluid place__holder__image mb-3' />
         `
           }
           <h4 class='task__card__title'>${title}</h4>
